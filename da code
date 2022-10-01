@@ -1,0 +1,5 @@
+function love.keypressed(key, unicode)
+	if key == "escape" then -- if you dont want your key to be esc (escape) you can change it
+		love.event.quit()
+	end
+end
